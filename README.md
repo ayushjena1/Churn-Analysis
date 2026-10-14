@@ -12,6 +12,8 @@
 <img src="https://img.shields.io/badge/Seaborn-2DD4BF?style=for-the-badge&logoColor=white" alt="Seaborn"/>
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logoColor=white" alt="Matplotlib"/>
 
+<br/>
+
 <img src="https://img.shields.io/badge/📉_Churn_Rate-26.5%25-F43F5E?style=flat-square" alt="Churn rate"/>
 <img src="https://img.shields.io/badge/💸_Revenue_Leakage-$139.1K%2Fmonth-F59E0B?style=flat-square" alt="Revenue leakage"/>
 <img src="https://img.shields.io/badge/👥_Customers-7%2C043-2DD4BF?style=flat-square" alt="Customers"/>
