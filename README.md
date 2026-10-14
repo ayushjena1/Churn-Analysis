@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Customer%20Churn%20Analysis/images/banner_animated.gif" alt="Customer Churn Analysis animated banner" width="100%"/>
+<img src="Customer%20Churn%20Analysis/images/banner_animated_full.gif" alt="Customer Churn Analysis animated banner" width="100%"/>
 
 <br/>
 
