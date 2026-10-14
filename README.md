@@ -34,34 +34,13 @@
 
 ---
 
-> ### 🔥 TL;DR
+> ### 🔥 Project at a Glance
 > A telecom company loses **26.5% of its customers**, which means **💸 $139.1K of monthly revenue** walking out the door. I cleaned the data 🧹, built a rule-based **risk model** 🚦, found what drives churn 🔍, and turned it into a **4-page Power BI dashboard** 📊 with a prioritised retention plan 🎯.
 
 ---
 
-## 🧭 Quick Navigation
-
-| | | | |
-|:-:|:-:|:-:|:-:|
-| [📂 Project Files](#-project-files) | [🎯 Summary](#-project-summary) | [❓ Business Problems](#-business-problems) | [🗃️ Dataset](#️-dataset) |
-| [🧪 What I Did](#-what-i-did-in-the-queries) | [🚦 Risk Model](#-risk-segmentation-model) | [📈 Insights](#-key-insights) | [🖼️ Dashboards](#️-power-bi-dashboard-gallery) |
-| [💡 Recommendations](#-strategic-recommendations) | [🧰 Skills](#-skills-demonstrated) | [🚀 Run It](#-how-to-run) | [📬 Contact](#-contact) |
-
----
-
-## 📂 Project Files
-
-👇 Click any file name to open it directly.
-
-| 🏷️ File | 📝 Description | 🔗 Open |
-|---|---|---|
-| 🗂️ **Raw dataset** | Original customer data, 7,043 rows × 21 columns | [customer_churn_dataset.csv](Customer%20Churn%20Analysis/customer_churn_dataset.csv) |
-| 🧹 **Cleaned & analysed dataset** | Notebook output with `TotalServices` and `RiskProfile` added | [analyzed_cleaned_churn.csv](Customer%20Churn%20Analysis/analyzed_cleaned_churn.csv) |
-| 📓 **Jupyter notebook** | Cleaning, feature engineering, EDA and risk model | [customer_churn_analysis.ipynb](Customer%20Churn%20Analysis/customer_churn_analysis.ipynb) |
-| 📊 **Power BI dashboard** | 4-page interactive report (open in Power BI Desktop) | [churn_analysis_dashboard.pbix](Customer%20Churn%20Analysis/churn_analysis_dashboard.pbix) |
-
 <details>
-<summary><b>🌳 Repository structure (click to expand)</b></summary>
+<summary><b>🌳📂 Repository structure (click to expand)</b></summary>
 
 ```text
 .
@@ -120,7 +99,7 @@
 | 📝 Account | `tenure`, `Contract`, `PaperlessBilling`, `PaymentMethod` |
 | 💵 Billing | `MonthlyCharges`, `TotalCharges` |
 | 🎯 Target | `Churn` |
-| ✨ **Added by me** | `TotalServices`, `RiskProfile` |
+| ✨ **Added by me** | `TotalServices`, `RiskProfile`, `TenureGroup`, `Segments`, `AddOns`, `RevenueLeakage` |
 
 ---
 
@@ -274,8 +253,7 @@ The report in [📊 churn_analysis_dashboard.pbix](Customer%20Churn%20Analysis/c
 
 ## 🧰 Skills Demonstrated
 
-<img src="https://img.shields.io/badge/🧹_Data_Cleaning-2DD4BF?style=for-the-badge" alt="Data Cleaning"/>
-<img src="https://img.shields.io/badge/🛠️_Feature_Engineering-2DD4BF?style=for-the-badge" alt="Feature Engineering"/>
+<img src="https://img.shields.io/badge/🧹_Data_Cleaning-2DD4BF?style=for-the-badge" alt="Data Cleaning"/>      <img src="https://img.shields.io/badge/🛠️_Feature_Engineering-2DD4BF?style=for-the-badge" alt="Feature Engineering"/>
 <img src="https://img.shields.io/badge/🔍_EDA-2DD4BF?style=for-the-badge" alt="EDA"/>
 <img src="https://img.shields.io/badge/🐼_Pandas_GroupBy-F59E0B?style=for-the-badge" alt="Pandas GroupBy"/>
 <img src="https://img.shields.io/badge/📈_Data_Visualisation-F59E0B?style=for-the-badge" alt="Data Visualisation"/>
@@ -293,19 +271,6 @@ The report in [📊 churn_analysis_dashboard.pbix](Customer%20Churn%20Analysis/c
 | 📊 **Business intelligence** | Multi-page Power BI report, KPI cards, heatmaps, segment drill-downs |
 | 🔬 **Analytical thinking** | Root-cause analysis, segmentation, revenue-at-risk quantification |
 | 🗣️ **Communication** | Executive summary, prioritised recommendations, 90-day roadmap |
-
----
-
-## 🚀 How to Run
-
-```bash
-git clone https://github.com/ayushjena1/Customer-Churn-Analysis.git
-cd "Customer-Churn-Analysis/Customer Churn Analysis"
-pip install pandas numpy matplotlib seaborn jupyter
-jupyter notebook customer_churn_analysis.ipynb
-```
-
-📓 The notebook and `customer_churn_dataset.csv` sit in the same folder, so it runs without changing any paths. For the dashboard, open [churn_analysis_dashboard.pbix](Customer%20Churn%20Analysis/churn_analysis_dashboard.pbix) in **Power BI Desktop**.
 
 ---
 
